@@ -16,7 +16,7 @@ public class DrawingArea extends JPanel {
 
 	protected void paintComponent(Graphics pen) {
 		super.paintComponent(pen);
-		
+		pen.setColor(Color.decode("#964B00"));
 		Monkey monkey = new Monkey(pen);
 		monkey.drawAt(650, 300);
 		/*pen.drawLine(100, 100, 800, 800);
